@@ -122,10 +122,6 @@
             if(self.images.length){
                 scrollEl = document.getElementById(self.settings.scrollElId);
                 iterationImage();
-                // var temp = setTimeout(function () {
-                //     iterationImage();
-                //     clearTimeout(temp);
-                // },300);
             }
             scrollEl.onscroll = function () {
                 if(timer){
