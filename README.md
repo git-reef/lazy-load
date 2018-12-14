@@ -28,8 +28,9 @@ error-src是在img-src为空字符串时，显示的图片路径，可以用来�
 引入库：<script src="../lazyload.js"></script>
 ```
 <br>
+
 ```
-window.onload = function () {
+使用：window.onload = function () {
 	lazyload({
 		selector: '.lazyload', 
 		scrollElId: 'scroll-element-id'
