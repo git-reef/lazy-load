@@ -23,6 +23,7 @@ error-src是在img-src为空字符串时，显示的图片路径，可以用来�
 ```
 <br>
 ##### js中的使用:<br>
+
 ```
 引入库：<script src="../lazyload.js"></script>
 ```
